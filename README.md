@@ -236,10 +236,16 @@ That's it! You'll see the complete compilation pipeline with all 7 phases! 🎉
 
 ## 👩‍💻 Developer
 
-**Developed by:** Mahia Akter Momo
+**Mahia Akter Momo** ✨
+
+A passionate full-stack developer and computer science enthusiast.
+
+### 📞 Connect With Me
+
+- 💼 **LinkedIn:** [linkedin.com/in/mahiamomo12](https://www.linkedin.com/in/mahiamomo12/)
+- 📧 **Email:** mahiamomo122@gmail.com
+- 🐙 **GitHub:** [@mahiamOmO](https://github.com/mahiamOmO)
 
 ---
-
-**Author:** Mahia Akter Momo ✨
 
 Made with ❤️ for compiler enthusiasts! 🎓
