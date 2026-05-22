@@ -1,5 +1,7 @@
 # 🚀 MiniLang Compiler - Complete Compilation Pipeline
 
+**Developed by:** Mahia Akter Momo
+
 A full-featured compiler showing all 7 compilation phases with detailed output at each step.
 
 ---
@@ -231,5 +233,13 @@ That's it! You'll see the complete compilation pipeline with all 7 phases! 🎉
 | 7 | **Code Generation** | TAC | Assembly | Codegen |
 
 ---
+
+## 👩‍💻 Developer
+
+**Developed by:** Mahia Akter Momo
+
+---
+
+**Author:** Mahia Akter Momo ✨
 
 Made with ❤️ for compiler enthusiasts! 🎓
