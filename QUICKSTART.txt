@@ -1,0 +1,91 @@
+╔══════════════════════════════════════════════════════════════╗
+║           MiniLang Compiler - Quick Reference                ║
+║           COMPLETE BUILD + ALL 7 PHASES IN ONE COMMAND        ║
+╚══════════════════════════════════════════════════════════════╝
+
+🎯 THE MASTER COMMAND:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+wsl bash -c "cd /mnt/c/Users/HP/Downloads/compiler && bash build.sh"
+
+Copy this entire line and paste into your WSL terminal!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ WHAT THIS COMMAND DOES:
+
+  1. Builds Flex Lexer (lexical analysis generator)
+  2. Builds Bison Parser (syntax analysis generator)  
+  3. Compiles with GCC (links all sources)
+  4. Runs compiler automatically with test.ml
+  5. Displays ALL 7 Compilation Phases
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📊 YOU'LL SEE ALL 7 PHASES:
+
+  Phase 1: LEXICAL ANALYSIS
+    ✓ Token-by-token listing
+    ✓ Shows keyword, identifier, operator, symbol types
+    
+  Phase 2: SYNTAX ANALYSIS  
+    ✓ ASCII Parse Tree
+    ✓ Shows program structure hierarchically
+    
+  Phase 3: SEMANTIC ANALYSIS
+    ✓ Type checking results
+    ✓ Declaration/assignment validation
+    
+  Phase 4: SYMBOL TABLE
+    ✓ Formatted variable table
+    ✓ Shows Name, Type, Scope, Category, Value
+    
+  Phase 5: TAC GENERATION
+    ✓ Three-Address Code intermediate representation
+    
+  Phase 6: CODE OPTIMIZATION
+    ✓ Shows optimization passes applied
+    
+  Phase 7: TARGET CODE GENERATION
+    ✓ x86-64 assembly-like output
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🧪 TEST OTHER EXAMPLES:
+
+wsl bash -c "cd /mnt/c/Users/HP/Downloads/compiler && cat examples/complex.ml | ./build/minilang"
+wsl bash -c "cd /mnt/c/Users/HP/Downloads/compiler && cat examples/ifelse.ml | ./build/minilang"
+wsl bash -c "cd /mnt/c/Users/HP/Downloads/compiler && cat examples/counter.ml | ./build/minilang"
+wsl bash -c "cd /mnt/c/Users/HP/Downloads/compiler && cat examples/nested.ml | ./build/minilang"
+wsl bash -c "cd /mnt/c/Users/HP/Downloads/compiler && cat examples/multiif.ml | ./build/minilang"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📝 AVAILABLE EXAMPLES:
+
+  • test.ml      - Simple variables and assignments
+  • complex.ml   - While loops + if statements  
+  • ifelse.ml    - If-else conditional
+  • counter.ml   - While loop counting
+  • nested.ml    - Nested if-else inside while
+  • multiif.ml   - Multiple nested conditions
+  • sumeven.ml   - Sum of even numbers
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💻 SUPPORTED LANGUAGE:
+
+  Variables:  int x;
+  Assignment: x = 5;
+  Operators:  +, -, *, /, %
+  Compare:    ==, !=, <, <=, >, >=
+  Control:    if, else, while
+  Loops:      while (condition) { ... }
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 READY TO GO!
+
+Just copy the master command above into WSL and press Enter!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
