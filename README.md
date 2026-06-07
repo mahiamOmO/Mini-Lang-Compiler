@@ -74,7 +74,12 @@ CMP R1, R2
 SETL t0
 ```
 
----
+
+## 🖼️ Parse Tree Illustration:
+
+<p align="center">
+  <img src="./system_design.png" alt="Parse Tree" width="700">
+</p>
 
 ## 📝 Test Different Examples
 
