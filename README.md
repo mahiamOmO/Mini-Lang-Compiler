@@ -1,10 +1,7 @@
 # 🚀 MiniLang Compiler - Complete Compilation Pipeline
 
-**Developed by:** Mahia Akter Momo
-
 A full-featured compiler showing all 7 compilation phases with detailed output at each step.
 
----
 
 ## ⚡ **ONE COMMAND - EVERYTHING!**
 
@@ -19,7 +16,7 @@ wsl bash -c "cd /mnt/c/Users/HP/Downloads/compiler && bash build.sh"
 - ✅ Runs compiler automatically
 - ✅ **Shows ALL 7 Compilation Phases**
 
----
+
 
 ## 📊 What You'll See - All 7 Phases
 
@@ -122,7 +119,6 @@ wsl bash -c "cd /mnt/c/Users/HP/Downloads/compiler && cat examples/sumeven.ml | 
 | `multiif.ml` | Multiple nested if statements | Nested conditionals |
 | `sumeven.ml` | Sum calculation with while | Arithmetic + loops |
 
----
 
 ## 🏗️ Project Structure
 
@@ -149,7 +145,6 @@ compiler/
 └── README.md                ← This file
 ```
 
----
 
 ## 💻 Supported Language Features
 
@@ -185,7 +180,6 @@ if (condition) { ... } else { ... }
 while (condition) { ... }
 ```
 
----
 
 ## 🎯 How It Works
 
@@ -197,7 +191,7 @@ while (condition) { ... }
 4. Runs `minilang` with `test.ml` automatically
 5. Displays all 7 compilation phases!
 
----
+
 
 ## ✨ Key Highlights
 
@@ -211,7 +205,6 @@ while (condition) { ... }
 ✅ **x86-64 Assembly Generation**  
 ✅ **All 7 Phases in Single Command**  
 
----
 
 ## 🚀 THE MASTER COMMAND
 
@@ -223,7 +216,7 @@ wsl bash -c "cd /mnt/c/Users/HP/Downloads/compiler && bash build.sh"
 
 That's it! You'll see the complete compilation pipeline with all 7 phases! 🎉
 
----
+
 
 ## 📚 Compilation Phases Explained
 
@@ -237,7 +230,7 @@ That's it! You'll see the complete compilation pipeline with all 7 phases! 🎉
 | 6 | **Optimization** | TAC | Optimized TAC | Optimizer |
 | 7 | **Code Generation** | TAC | Assembly | Codegen |
 
----
+
 
 ## 👩‍💻 Developer
 
@@ -251,6 +244,6 @@ A passionate full-stack developer and computer science enthusiast.
 - 📧 **Email:** mahiamomo122@gmail.com
 - 🐙 **GitHub:** [@mahiamOmO](https://github.com/mahiamOmO)
 
----
+
 
 Made with ❤️ for compiler enthusiasts! 🎓
